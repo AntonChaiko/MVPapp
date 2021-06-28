@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mvpapp.R
 import com.example.mvpapp.databinding.RecyclerViewItemBinding
-import com.example.mvpapp.model.ColorsModel
+import com.example.mvpapp.domain.models.ColorsModel
 
 class RecyclerViewAdapter(val copyHex: (hex: String) -> Unit) :
     ListAdapter<ColorsModel, RecyclerViewAdapter.ItemViewHolder>(DiffCallback()) {

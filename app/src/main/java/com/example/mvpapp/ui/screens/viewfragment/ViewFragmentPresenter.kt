@@ -1,10 +1,9 @@
-package com.example.mvpapp.presenters
+package com.example.mvpapp.ui.screens.viewfragment
 
 import com.arellomobile.mvp.InjectViewState
 import com.arellomobile.mvp.MvpPresenter
 import com.example.mvpapp.R
-import com.example.mvpapp.model.ColorsModel
-import com.example.mvpapp.views.BaseView
+import com.example.mvpapp.domain.models.ColorsModel
 
 
 @InjectViewState

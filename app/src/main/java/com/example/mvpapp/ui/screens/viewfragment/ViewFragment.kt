@@ -1,4 +1,4 @@
-package com.example.mvpapp.fragments
+package com.example.mvpapp.ui.screens.viewfragment
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -9,11 +9,9 @@ import android.widget.Toast
 import com.arellomobile.mvp.presenter.InjectPresenter
 import com.example.mvpapp.R
 import com.example.mvpapp.adapters.RecyclerViewAdapter
-import com.example.mvpapp.bases.BaseFragment
+import com.example.mvpapp.ui.base.BaseFragment
 import com.example.mvpapp.databinding.FragmentViewBinding
-import com.example.mvpapp.model.ColorsModel
-import com.example.mvpapp.presenters.ViewFragmentPresenter
-import com.example.mvpapp.views.BaseView
+import com.example.mvpapp.domain.models.ColorsModel
 
 
 class ViewFragment : BaseFragment<FragmentViewBinding>(), BaseView {

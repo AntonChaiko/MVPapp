@@ -1,4 +1,4 @@
-package com.example.mvpapp.model
+package com.example.mvpapp.domain.models
 
 data class ColorsModel(
      val colorName:String,

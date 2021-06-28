@@ -1,9 +1,9 @@
-package com.example.mvpapp.views
+package com.example.mvpapp.ui.screens.viewfragment
 
 import com.arellomobile.mvp.MvpView
 import com.arellomobile.mvp.viewstate.strategy.AddToEndSingleStrategy
 import com.arellomobile.mvp.viewstate.strategy.StateStrategyType
-import com.example.mvpapp.model.ColorsModel
+import com.example.mvpapp.domain.models.ColorsModel
 
 @StateStrategyType(AddToEndSingleStrategy::class)
 interface BaseView : MvpView {
